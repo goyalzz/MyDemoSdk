@@ -1,4 +1,4 @@
-package demolibrary.labs.it.pronto.mylibrary;
+package demolibrary.labs.it.pronto.mylibrary.contentmodels;
 
 /**
  * Created by pronto on 22/7/16.
@@ -8,6 +8,8 @@ public class MyLibraryManager {
     private SdkDataValues sdkDataValues = SdkDataValues.getInstance();
 
     private PreloadedAppDataValues preloadedAppDataValues = PreloadedAppDataValues.getInstance();
+
+    private EncryptedDataValues encryptedDataValues = EncryptedDataValues.getInstance();
 
     private static MyLibraryManager instance;
 
@@ -35,5 +37,13 @@ public class MyLibraryManager {
 
     public void setPreloadedAppDataValues(PreloadedAppDataValues preloadedAppDataValues) {
         this.preloadedAppDataValues = preloadedAppDataValues;
+    }
+
+    public EncryptedDataValues getEncryptedDataValues() {
+        return encryptedDataValues;
+    }
+
+    public void setEncryptedDataValues(EncryptedDataValues encryptedDataValues) {
+        this.encryptedDataValues = encryptedDataValues;
     }
 }

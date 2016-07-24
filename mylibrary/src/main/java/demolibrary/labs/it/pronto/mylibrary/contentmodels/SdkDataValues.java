@@ -1,6 +1,8 @@
-package demolibrary.labs.it.pronto.mylibrary;
+package demolibrary.labs.it.pronto.mylibrary.contentmodels;
 
 import java.util.HashMap;
+
+import demolibrary.labs.it.pronto.mylibrary.utils.MyApiUrlKeys;
 
 /**
  * Created by pronto on 22/7/16.

@@ -3,6 +3,9 @@ package demolibrary.labs.it.pronto.mylibrary;
 import android.Manifest;
 import android.content.Context;
 
+import demolibrary.labs.it.pronto.mylibrary.contentmodels.MyLibraryManager;
+import demolibrary.labs.it.pronto.mylibrary.utils.MyLibraryUtils;
+
 /**
  * Created by pronto on 22/7/16.
  */
